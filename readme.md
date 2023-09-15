@@ -15,7 +15,7 @@ Make sure you have Node.js and npm installed on your system.
 1. Clone the repository to your local machine:
 
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   https://github.com/VigneshSambari/TIF_ASSIGNMENT.git
 
 2. Install necessary dependencies
    ```sh
