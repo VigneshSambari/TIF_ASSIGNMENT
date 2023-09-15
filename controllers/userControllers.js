@@ -72,7 +72,6 @@ const signup = async (req, res) => {
        delete resultObj.password
        delete resultObj.__v;
        delete resultObj._id;
-       resultObj.mongodb_id = result._id;
 
        const token = generateToken({data: resultObj})
        
@@ -141,7 +140,6 @@ const signin = async (req, res) => {
         delete resultObj.password
         delete resultObj.__v;
         delete resultObj._id;
-        resultObj.mongodb_id = existingUser._id;
 
         const token = generateToken({data: resultObj})
         
